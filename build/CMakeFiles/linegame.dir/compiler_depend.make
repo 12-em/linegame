@@ -521,8 +521,18 @@ CMakeFiles/linegame.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/glm/ext/matrix_clip_space.inl \
   /usr/include/glm/ext/matrix_transform.hpp \
   /usr/include/glm/ext/matrix_transform.inl \
-  /usr/include/glm/gtc/matrix_transform.inl
+  /usr/include/glm/gtc/matrix_transform.inl \
+  ../src/gameobject.hpp \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc
 
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/vector:
 
 /usr/include/glm/ext/scalar_constants.inl:
 
@@ -666,6 +676,8 @@ CMakeFiles/linegame.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/limits.h:
 
+../src/gameobject.hpp:
+
 /usr/include/glm/ext/matrix_clip_space.inl:
 
 /usr/include/glm/detail/setup.hpp:
@@ -679,6 +691,8 @@ CMakeFiles/linegame.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/SDL2/SDL_metal.h:
 
 /usr/include/SDL2/SDL_messagebox.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/cstddef:
 
@@ -804,6 +818,8 @@ CMakeFiles/linegame.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/hresetintrin.h:
 
+/usr/include/c++/11/bits/vector.tcc:
+
 /usr/include/glm/ext/matrix_double2x3.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h:
@@ -891,6 +907,8 @@ CMakeFiles/linegame.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/SDL2/SDL_gamecontroller.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 

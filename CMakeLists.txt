@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 
 set(SOURCES src/main.cpp
     src/game.hpp
-    src/camera.hpp)
+    src/camera.hpp
+    src/gameobject.hpp)
 
 find_package(SDL2 REQUIRED)
 find_package(glm REQUIRED)

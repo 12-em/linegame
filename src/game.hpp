@@ -3,6 +3,7 @@
 #include <SDL2/SDL.h>
 #include <glm/glm.hpp>
 #include "camera.hpp"
+#include "gameobject.hpp"
 
 class Game {
 private:
@@ -98,17 +99,27 @@ public:
         camera->setPosition(camNewPos);
         camera->lookAt(glm::vec3());
 
+        Transform tf;
+        tf.setEulerAngles(glm::vec3(0, frame_n * 0.05f, 0));
+        tf.setPosition(glm::vec3(0,0,-1));
+        tf.setScale(glm::vec3(0.5f, 0.5f, 0.5f));
+
         glm::vec3 pos1 = glm::vec3();
         glm::vec3 pos2 = glm::vec3(1,0,0);
         glm::vec3 pos3 = glm::vec3(0,1,0);
         glm::vec3 pos4 = glm::vec3(0,0,1);
+        glm::vec3 posm = glm::vec3(-1, 0, 0);
+
+        posm = tf.localToWorld(posm);
+        pos2 = tf.localToWorld(pos2);
 
         glm::vec2 p1 = camera->worldToScreen(pos1);
         glm::vec2 p2 = camera->worldToScreen(pos2);
         glm::vec2 p3 = camera->worldToScreen(pos3);
         glm::vec2 p4 = camera->worldToScreen(pos4);
+        glm::vec2 pm = camera->worldToScreen(posm);
 
-        drawline(255,0,0, p1, p2);
+        drawline(255,0,0, pm, p2);
         drawline(0,255,0, p1, p3);
         drawline(0,0,255, p1, p4);
     }
