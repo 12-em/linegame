@@ -129,6 +129,54 @@ linegame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linegame.dir/build.make CMakeFiles/linegame.dir/build
 .PHONY : linegame/fast
 
+src/game.o: src/game.cpp.o
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linegame.dir/build.make CMakeFiles/linegame.dir/src/game.cpp.o
+.PHONY : src/game.cpp.o
+
+src/game.i: src/game.cpp.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linegame.dir/build.make CMakeFiles/linegame.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
+
+src/game.s: src/game.cpp.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linegame.dir/build.make CMakeFiles/linegame.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
+
+src/gameobject.o: src/gameobject.cpp.o
+.PHONY : src/gameobject.o
+
+# target to build an object file
+src/gameobject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linegame.dir/build.make CMakeFiles/linegame.dir/src/gameobject.cpp.o
+.PHONY : src/gameobject.cpp.o
+
+src/gameobject.i: src/gameobject.cpp.i
+.PHONY : src/gameobject.i
+
+# target to preprocess a source file
+src/gameobject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linegame.dir/build.make CMakeFiles/linegame.dir/src/gameobject.cpp.i
+.PHONY : src/gameobject.cpp.i
+
+src/gameobject.s: src/gameobject.cpp.s
+.PHONY : src/gameobject.s
+
+# target to generate assembly for a file
+src/gameobject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linegame.dir/build.make CMakeFiles/linegame.dir/src/gameobject.cpp.s
+.PHONY : src/gameobject.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... linegame"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
+	@echo "... src/gameobject.o"
+	@echo "... src/gameobject.i"
+	@echo "... src/gameobject.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

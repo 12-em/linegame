@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/linegame.dir/src/game.cpp.o"
+  "CMakeFiles/linegame.dir/src/game.cpp.o.d"
+  "CMakeFiles/linegame.dir/src/gameobject.cpp.o"
+  "CMakeFiles/linegame.dir/src/gameobject.cpp.o.d"
   "CMakeFiles/linegame.dir/src/main.cpp.o"
   "CMakeFiles/linegame.dir/src/main.cpp.o.d"
   "linegame"

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/linegame.dir/src/main.cpp.o -o linegame  -L/usr/lib/x86_64-linux-gnu  -lSDL2 
+/usr/bin/c++ CMakeFiles/linegame.dir/src/main.cpp.o CMakeFiles/linegame.dir/src/game.cpp.o CMakeFiles/linegame.dir/src/gameobject.cpp.o -o linegame  -L/usr/lib/x86_64-linux-gnu  -lSDL2 

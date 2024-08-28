@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/david/Dokumente/c++/linegame/src/game.cpp" "CMakeFiles/linegame.dir/src/game.cpp.o" "gcc" "CMakeFiles/linegame.dir/src/game.cpp.o.d"
+  "/home/david/Dokumente/c++/linegame/src/gameobject.cpp" "CMakeFiles/linegame.dir/src/gameobject.cpp.o" "gcc" "CMakeFiles/linegame.dir/src/gameobject.cpp.o.d"
   "/home/david/Dokumente/c++/linegame/src/main.cpp" "CMakeFiles/linegame.dir/src/main.cpp.o" "gcc" "CMakeFiles/linegame.dir/src/main.cpp.o.d"
   )
 
