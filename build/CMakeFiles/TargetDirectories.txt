@@ -1,3 +1,0 @@
-/home/david/Dokumente/c++/linegame/build/CMakeFiles/linegame.dir
-/home/david/Dokumente/c++/linegame/build/CMakeFiles/edit_cache.dir
-/home/david/Dokumente/c++/linegame/build/CMakeFiles/rebuild_cache.dir
